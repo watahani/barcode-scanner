@@ -37,6 +37,18 @@ You are front-end engineer and specialist of React and web design. Please create
     * The UI should have two tabs: "Scanned" and "Unscanned"
     * Clicking on a tab should display the corresponding list of books.
 
+6. **Design Guideline**
+    * Assume the display is for a smartphone screen.
+    * Place a <video> tag for barcode scanning at the top of the screen.
+    * The <video> tag should display the smartphone camera feed and crop the center part into a horizontal shape (barcode size).
+    * Display a circular frame in the top right corner of the image showing a number.
+    * Place a scan button in the middle of the screen. When clicked, it should continuously display an animation indicating barcode scanning. Clicking again should stop the animation.
+    * Display a log area slightly below the middle of the screen, which can be toggled on and off by clicking.
+    * Display two tabs at the bottom of the screen that can be switched by clicking.
+    * Inside the tabs, display a list using <ul> and <li> tags.
+    * Use modern CSS for the design.
+
+
 **Non-Functional Requirements:**
 
 1.  **Performance:** Barcode detection and UI updates should be fast and responsive.
