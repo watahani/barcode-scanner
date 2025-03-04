@@ -57,4 +57,8 @@ You are front-end engineer and specialist of React and web design. Please create
 *   scanned: This field doesn't exist in the JSON data, it is added dynamically by mainScript.js.
 
 3. BarcodeDetector can be only use in service worker.
+
+**Development steps**
+
+​As the initial development step, we will create a TypeScript template application using create-react-app. After confirming that it runs correctly, we will proceed to develop the application to meet the aforementioned requirements.
 ```
