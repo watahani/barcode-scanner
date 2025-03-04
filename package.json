@@ -1,0 +1,48 @@
+{
+  "name": "barcode-scanner",
+  "version": "1.0.0",
+  "description": "Barcode Scanner App",
+  "main": "index.js",
+  "scripts": {
+    "start": "PORT=50620 DANGEROUSLY_DISABLE_HOST_CHECK=true HOST=0.0.0.0 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watahani/barcode-scanner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/watahani/barcode-scanner/issues"
+  },
+  "homepage": "https://github.com/watahani/barcode-scanner#readme",
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "styled-components": "^6.1.1"
+  }
+}
