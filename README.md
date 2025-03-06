@@ -72,5 +72,8 @@ You are front-end engineer and specialist of React and web design. Please create
 
 **Development steps**
 
-​As the initial development step, we will create a TypeScript template application using create-react-app. After confirming that it runs correctly, we will proceed to develop the application to meet the aforementioned requirements.
+- This app will be expanded beyond just a barcode reader, so the barcode reader feature should be displayed in a subdirectory or as a tab switch rather than on the top page.
+- use vite for framework
+- use radix-ui for ui conponents
+- use https://github.com/yudielcurbelo/react-qr-scanner for barcode scanning
 ```
