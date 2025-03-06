@@ -72,6 +72,7 @@ You are front-end engineer and specialist of React and web design. Please create
 
 **Development steps**
 
+- The application source should be placed in the same hierarchy as the README.md file. In other words, packages.json, etc. should be placed in the same folder as README.md.
 - This app will be expanded beyond just a barcode reader, so the barcode reader feature should be displayed in a subdirectory or as a tab switch rather than on the top page.
 - use vite for framework
 - use radix-ui for ui conponents
